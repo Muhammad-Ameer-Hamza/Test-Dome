@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <title>Test Dome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top container">
+        <a class="navbar-brand" href="#">TESTDOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tour<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Question</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">For jobseekers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--coloumn part-->
+    <div class="container heading">
+        <h1>Peter Gibbons</h1>
+        <a href="https://www.w3schools.com/html/">send.email.4.programmer.joke@gmail.com</a>
+        <hr>
+        <div class="row margin">
+            <div class="col-md-2">
+
+                <h4>RESULT</h4>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><b>STATUS:</b></p>
+                    </div>
+                    <p class="fail-text">FAIL</p>
+                    <div class="col-md-6">
+                        <p><b>TIME:</b></p>
+                    </div>
+                    <p><b>7min</b></p>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div id="circle">
+                    <div class="loader">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <h4>BREAKDOWN</h4>
+                <br>
+                        
+                <div class="progress">
+                    <div class="progress-bar bar-color" style="width:33%"></div>
+                    
+                </div>
+
+
+                <br>
+                <div class="progress">
+                    <div class="progress-bar bar-color" style="width:53%"></div>
+                </div>
+                       
+                
+            </div>
+
+
+
+            <div class="col-md-4">
+
+
+                <h6>HISTORY<button type="submit" class="btn btn-light btn-md btn-theme">NOTES</button></h6>
+                <p class="border"><u>Test URL was created on May 25,2016<br>
+                        Candidate started the test on Jun 1,2016
+                        Candidate completed the test on Jun 1,2016</u></p>
+
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <button type="submit" class="btn btn-primary btn-md btn-theme btn-color">Share</button>
+        <button type="submit" class="btn btn-primary btn-md btn-theme btn-color">Export</button>
+    </div>
+    <!--table-->
+    <div class="container table-margin">
+        <table class="table text-center">
+            <thead>
+                <tr class="">
+                    <th>ORDER</th>
+                    <th>QUESTION/ANSWER (EXPAND ALL)</th>
+                    <th>SCORE</th>
+                    <th>TIME</th>
+                    <th>TYPE</th>
+                    <th><u>MAX POINTS</u></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-bg">
+                    <td>1</td>
+                    <td class="text-clr"><b>Q: a pelindrome is a word th...</b><br>
+                        A: using system;public c...
+                    </td>
+                    <td class="text-clr">
+                        <p class="num-color">33%</p>
+                        <div class="progress">
+                            <div class="progress-bar bar-color" style="width:33%"></div>
+                        </div>
+                    </td>
+                    <td>1min 26sec<br>
+                        (expected 10min)
+                    </td>
+                    <td><u>CODE</u></td>
+                    <td>3 points</td>
+
+                </tr>
+                <tr class="table-bg">
+                    <td>2</td>
+                    <td class="text-clr"><b>Q: fix bugs in the follo....</b><br>
+                        A: DOCTYPE html html....
+                    </td>
+                    <td class="text-clr">
+                        <p class="num-color">25%</p>
+                        <div class="progress">
+                            <div class="progress-bar bar-color" style="width:25%"></div>
+                        </div>
+                    </td>
+                    <td>46sec<br>
+                        (expected 10min)</td>
+                    <td><u>CODE</u></td>
+                    <td>3 points</td>
+
+
+                </tr>
+                <tr class="table-bg">
+                    <td>3</td>
+                    <td class="text-clr"><b>Q: using css only(without a...</b><br>
+                        A: !DOCTYPE html (html)
+                    </td>
+                    <td class="text-clr">
+                        <p class="num-color">67%</p>
+                        <div class="progress">
+                            <div class="progress-bar bar-color" style="width:67%"></div>
+                        </div>
+                    </td>
+                    <td>3min 58sec<br>
+                       (expected 20min)</td>
+                    <td><u>CODE</u></td>
+                    <td>6 points</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
